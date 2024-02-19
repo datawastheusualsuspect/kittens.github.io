@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Kittens</title>
+    <style>
+        body {
+            width: 1000px;
+            font-family: Arial, sans-serif;
+            margin: auto;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        article {
+            flex: 0 0 calc(48% - 10px);
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            float: left;
+            overflow: auto;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+        }
+
+        form {
+            margin-top: 20px;
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Free Kittens</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Ham Stuffed Kittens</h2>
+            <img src="./images/passed_out_cats.JPG" alt="kitten pile"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <p style="padding:0px 5px 0px 5px;">There were Thanksgiving sales on spiral cut ham. You can't beat $8.90
+                for 10lbs of low quality salty meat. I was left with a bone with ham scraps on it that I threw out onto
+                the front lawn.</p>
+            <p style="padding:0px 5px 0px 5px;">There is a dog that comes by when it smells food out of my kitchen
+                window. Usually the dog is alone but this time there were 4 newborn kittens with it. The kittens were
+                tentitively gnawing at the ham bone and growling at the dog. I filled cat bowls with spiral cut ham and
+                let them eat in peace.</p>
+            <p style="padding:0px 5px 0px 5px;">The next day I looked out into the front lawn. The ham bone was stripped
+                clean. Kittens were passed in a corner with one of our cats. Who knew cats liked ham so much.</p>
+        </article>
+
+        <article>
+            <h2>They Like Breakfast</h2>
+            <img src="./images/breakfast_cats.JPG" alt="kittens like scrambled eggs"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <p style="padding:0px 5px 0px 5px;">We have 3 cats of our own. The Siamese has decided the 4 stray kittens
+                are hers. She started bolting out the door to care for them.</p>
+            <p style="padding:0px 5px 0px 5px;">November had turned into December. I setup a few Costco boxes and our
+                Siamese was bringing them her toys. All 3 of our cats started to tell me the kittens were hungry so I
+                started leaving out milk and cat food in the backyard for them.</p>
+            <p style="padding:0px 5px 0px 5px;">One morning I was making scrambled eggs, cheese, and ham. I heard
+                meowing and the kittens were waiting at the back door. I guess milk and cat food wasn't cutting it so I
+                gave them my breakfast.</p>
+        </article>
+
+        <article>
+            <h2>They Live Here Now</h2>
+            <img src="./images/star_cats.jpg" alt="kittens eating in a star pattern"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <p style="padding:0px 5px 0px 5px;">Rain started flooding my backyard. I was getting tired of chasing our
+                Siamese around the neighborhood. I was herding cats at this point.</p>
+            <p style="padding:0px 5px 0px 5px;">We decided to let them in rather than leave them outside.</p>
+            <p style="padding:0px 5px 0px 5px;">Our cats were used to the stray kittens at this point. Surprisingly our
+                cats were OK with
+                them eating in the kitchen. I have seen our cats be gracious and accepting of the kittens.</p>
+        </article>
+
+        <article>
+            <h2>Sale Turkey</h2>
+            <img src="./images/turkey_cats_2.jpg" alt="kittens with a turkey carcass"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <p style="padding:0px 5px 0px 5px;">I had meant for the kittens to stay a day or two. The shelters were
+                full. They had nowhere to go but they were mowing through Costco bags of cat food.</p>
+            <p style="padding:0px 5px 0px 5px;">I recall how much the kittens liked turkey. I was buying the blowout
+                39-cent deals at Safeway and Lucky. Spatchcock the carcass to cram into a dutch oven with salt.</p>
+            <p style="padding:0px 5px 0px 5px;">I seem to make the best kitten food. They are having a ball with our
+                older cats. It seems like the kittens are learning how to be part of a cat pack.</p>
+        </article>
+
+        <article>
+            <h2>Piles of Bones</h2>
+            <img src="./images/wings_thighs_cats.jpg" alt="kittens with turkey bones"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <p style="padding:0px 5px 0px 5px;">This is becoming ridiculous. I have 8 cats in the house. They all get
+                along but the upkeep reminds me of teenagers. They eat everything I put down.</p>
+            <p style="padding:0px 5px 0px 5px;">I'm starting to notice a tick and tock pattern to Safeway and Lucky
+                sales. They switch off some cheap meat deal weekly. I personally do not like wings and thighs but they
+                are on sale.</p>
+            <p style="padding:0px 5px 0px 5px;">I'm learning how to fill a Dutch oven. Let it go low and slow with a
+                little salt and cats will eat whatever you cook. An entire $7 mega pack of wings and thighs lasts a week
+                so it more cost effective than a $1 can of tuna.</p>
+        </article>
+
+        <article>
+            <h2>Fried Chicken</h2>
+            <img src="./images/chicken_cats.jpg" alt="kittens eating fried chicken cutlets"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <p style="padding:0px 5px 0px 5px;">I'm Chinese, we know how to fry chicken. If you look at an American
+                Chinese menu is mostly pork chops, fried chicken, and cheap sliced beef.</p>
+            <p style="padding:0px 5px 0px 5px;">The kittens have acclimated to living with us. I'm not so into the fur
+                tornado when they decide it's play time. I need to find them permanent homes.</p>
+            <p style="padding:0px 5px 0px 5px;">This was a learning experience about cat behavior. Assuming cats
+                eat only certain things, won't socialize with others, or any number of cat things I have seen proven
+                wrong.
+            </p>
+        </article>
+
+        <!-- sidebar -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img src="./images/chicken_cats.jpg" alt="kittens eating fried chicken cutlets"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <img src="./images/chicken_cats.jpg" alt="kittens eating fried chicken cutlets"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <img src="./images/chicken_cats.jpg" alt="kittens eating fried chicken cutlets"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+            <img src="./images/chicken_cats.jpg" alt="kittens eating fried chicken cutlets"
+                style="width:100px; height:100px; float:left; margin:0px 5px;">
+        </div>
+
+        <h2>Available kittens</h2>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; click here</span>
+
+        <!-- Contact Form -->
+        <div>
+            <h2>Kitten delivery</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Datalist with 4 entries -->
+                <label for="messageType">Select Kitten:</label>
+                <input type="text" id="messageType" name="messageType" list="messageTypes">
+                <datalist id="messageTypes">
+                    <option value="Griselda">
+                    <option value="Tall Boy">
+                    <option value="Socks">
+                    <option value="Mini Stripes">
+                </datalist>
+
+                <!-- datepicker -->
+                <label for="pickup">Preferred pickup date:</label>
+                <input type="date" id="pickup" name="pickup">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="Reset">Reset</button>
+                <button type="Submit" onclick="alert('Thank you!');">Submit</button>
+            </form>
+        </div>
+        <footer style="clear: both">
+            <p>Chris Yu</p>
+        </footer>
+    </main>
+
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</html>
